@@ -33,11 +33,11 @@ This ensures to get the lowest possible latencies.
 
 Linux Server Build and Deployment
 ---------------------------------
-- `$> sudo apt-get install build-essential libqt4-dev libjack-jackd2-dev`
-- `$> qmake Jamulus.pro`
-- `$> make clean`
-- `$> make`
-- `$> ./Jamulus -s -n` (or `$> ./Jamulus -s` to run server GUI)
+- `$ sudo apt-get install build-essential libqt4-dev libjack-jackd2-dev`
+- `$ qmake Jamulus.pro`
+- `$ make clean`
+- `$ make`
+- `$ ./Jamulus -s -n` (or `$ ./Jamulus -s` to run server GUI)
 
 Windows Download and Installation
 ---------------------------------
