@@ -31,6 +31,13 @@ For the Jamulus software to run stable it is recommended to use a PC with at lea
 On a Windows operating system it is recommended to use a sound card with a native ASIO driver.
 This ensures to get the lowest possible latencies.
 
+Linux Server Build and Deployment
+---------------------------------
+- `$> sudo apt-get install build-essential libqt4-dev libjack-jackd2-dev`
+- `$> qmake Jamulus.pro`
+- `$> make clean`
+- `$> make`
+- `$> ./Jamulus -s -n` (or `$> ./Jamulus -s` to run server GUI)
 
 Windows Download and Installation
 ---------------------------------
